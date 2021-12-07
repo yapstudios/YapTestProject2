@@ -18,6 +18,7 @@
 		B447CCAC2760131F0085D679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B447CCB12760131F0085D679 /* YapTestProject2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YapTestProject2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B447CCB9276013200085D679 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B447CCC8276015C50085D679 /* YapTestProject2--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "YapTestProject2--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +35,7 @@
 		B447CCA42760131F0085D679 = {
 			isa = PBXGroup;
 			children = (
+				B447CCC8276015C50085D679 /* YapTestProject2--iOS--Info.plist */,
 				B447CCA92760131F0085D679 /* Shared */,
 				B447CCB8276013200085D679 /* macOS */,
 				B447CCB22760131F0085D679 /* Products */,
@@ -264,6 +266,7 @@
 				DEVELOPMENT_TEAM = 8JU59R7PAE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YapTestProject2--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,6 +297,7 @@
 				DEVELOPMENT_TEAM = 8JU59R7PAE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YapTestProject2--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
